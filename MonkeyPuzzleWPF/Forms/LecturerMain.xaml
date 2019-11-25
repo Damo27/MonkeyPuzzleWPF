@@ -1,0 +1,24 @@
+﻿<Window x:Class="MonkeyPuzzleWPF.Forms.LecturerMain"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MonkeyPuzzleWPF.Forms"
+        mc:Ignorable="d"
+        Title="Lecturer - " Height="398.319" Width="771.008" Icon="/MonkeyPuzzleWPF;component/Content/Monkey.ico" WindowStartupLocation="CenterScreen">
+    <Window.Background>
+        <ImageBrush ImageSource="/MonkeyPuzzleWPF;component/Content/blue.jpg"/>
+    </Window.Background>
+    <Grid x:Name="___No_Name_">
+        <Button x:Name="btn_createTest" Content="Create Test" HorizontalAlignment="Left" Margin="182,63,0,0" VerticalAlignment="Top" Width="148" Height="63" FontSize="20" FontFamily="Showcard Gothic" Click="btn_createTest_Click"/>
+        <Button x:Name="btn_editTest" Content="Edit Test" HorizontalAlignment="Left" Margin="549,63,0,0" VerticalAlignment="Top" Width="148" Height="63" FontFamily="Showcard Gothic" FontSize="20" Click="btn_editTest_Click" />
+        <Button x:Name="btn_deleteTest" Content="Delete Test" HorizontalAlignment="Left" Margin="182,237,0,0" VerticalAlignment="Top" Width="148" Height="63" FontFamily="Showcard Gothic" FontSize="20" Click="btn_deleteTest_Click" />
+        <Button x:Name="btn_viewMarks" Content="View Marks" HorizontalAlignment="Left" Margin="549,237,0,0" VerticalAlignment="Top" Width="148" Height="63" FontFamily="Showcard Gothic" FontSize="20" Click="btn_viewMarks_Click"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="41,39,0,0" VerticalAlignment="Top" Width="100" Opacity="0.98" Source="/MonkeyPuzzleWPF;component/Content/CreateTest.png">
+        </Image>
+        <Image HorizontalAlignment="Left" Height="100" Margin="398,39,0,0" VerticalAlignment="Top" Width="100" Opacity="0.98" Source="/MonkeyPuzzleWPF;component/Content/EditATest.png"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="41,213,0,0" VerticalAlignment="Top" Width="100" Opacity="0.98" Source="/MonkeyPuzzleWPF;component/Content/DeleteTest.png"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="398,213,0,0" VerticalAlignment="Top" Width="100" Opacity="0.98" Source="/MonkeyPuzzleWPF;component/Content/Marksheet.png"/>
+
+    </Grid>
+</Window>
